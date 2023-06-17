@@ -1,0 +1,100 @@
+.contact{
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 275px;
+  height: 170px;
+  margin: 16px;
+  float: left;
+}
+.contact h1{
+    font-size: 1.5em;
+    margin-bottom: 6px;
+    margin-top: 10px;
+}
+.contact p {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.contact button {
+      position: relative;
+      float: right;
+      margin-right: 10px;
+      color: #000000;
+      border: none;
+      width: 60px;
+      height: 30px;
+      margin-top: 8px;
+       cursor: pointer;
+       outline: none;
+}
+.contact button:hover{
+    background-color: #ffa5a5;
+}
+
+.contacts{
+    display: block;
+}
+
+header{
+    padding: 10px;
+}
+
+input.search{
+    display: inline-block;
+    margin: 20px 50px 20px 500px;
+    font-size: 1.3em;
+    width: 25%;
+    height: 40px;
+    text-align: center;
+}
+button.search{
+    display: inline-block;
+    margin: 20px 0px;
+    border: 1.6px solid black;
+    padding: 1px 6px;
+    height: 40px;
+}
+
+.form{
+    padding-left: 30px;
+}
+.form label{
+    margin: 30px;
+}
+.form button{
+    width: 10%;
+    margin-left: 30px;
+}
+
+.deletePopUp {
+    background-color: rgba(183, 2, 2, 0.8);
+    position: relative;
+    top: -105px;
+    height: 140px;
+}
+.deletePopUp h1{
+    display: block;
+    color: #ffffff;
+    font-size: 1.1em;
+    padding-top: 25px;
+    margin-left: 5px;
+}
+.deletePopUp div{
+    display: inline-block;
+    margin-top: 48px;
+    margin-left: 115px;
+    margin-bottom: 20px;
+}
+.deletePopUp button{
+    color: black;
+    width: 60px;
+}
+
+.updateForm input{
+    margin-top: 7.5px;
+}
